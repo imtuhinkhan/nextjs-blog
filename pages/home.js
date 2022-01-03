@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Main() {
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +13,7 @@ export default function Main() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+         This is home page
         </h1>
         <a href='/home'>Home Page</a>
       </main>
