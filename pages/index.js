@@ -14,7 +14,6 @@ export default function Main() {
       <main className={styles.main}>
         <a href='/home'>Home Page</a>
       </main>
-      </footer>
     </div>
   )
 }
