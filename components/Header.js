@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Header(props) {
@@ -25,7 +26,7 @@ function Header(props) {
                         </div>
                     </div>
                     <div class="header_mid">
-                        <a href="index.html" class="header_logo logo" title=""><img data-src="/img/logo.png" src="/img/logo.png" class="js-img" alt=""/></a>    
+                        <Link href="/"><a class="header_logo logo" title=""><img data-src="/img/logo.png" src="/img/logo.png" class="js-img" alt=""/></a></Link>
                         <ul class="header_nav">
                             <li><a href="#recent" class="js-local">Recent posts</a></li>
                             <li><a href="#popular" class="js-local">popular</a></li>
