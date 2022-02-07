@@ -9,76 +9,80 @@ export default function Blog() {
       </Head>
 
       <main class="content">
-                <section class="section-post">
+                <div class="section-post">
                     <div class="wrapper">
-                        <div class="pagetitle"><h1>Blog</h1></div>
+                        <div class="pagetitle"><div class="h1">Post</div></div>
                         <div class="breadcrumbs">
-                            <a href="#">Home</a> <span class="dash"></span> <span>Travel</span>
+                            <a href="#">Home</a> <span class="dash"></span> <a href="#">Travel</a> <span class="dash"></span> <span>A set of the most necessary things on vacation</span>
                         </div>
                         <div class="columns">
                             <div class="columns_center">
-                                <div class="article article_list">
-                                    <div class="article_item">
-                                        <div class="article_item_cover">
-                                            <a href="article.html"><img src="/img/img9.jpg" alt=""/></a>
-                                            <a href="blog.html" class="cats_item">travel</a>
-                                        </div>
-                                        <div class="article_infoline infoline">
-                                            <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
-                                            <div class="infoline_author">
-                                                <div class="ava"><img src="/img/ava.png" src="/img/ava.png" class="js-img" alt=""/></div>
-                                                Marie Caphlish
-                                            </div>
-                                        </div>
-                                        <div class="article_txt">
-                                            <div class="article_title h2"><a href="article.html">a set of the most necessary things on vacation</a></div>
-                                            <div class="article_desc">A breakdown or a flat tire can happen to anyone at any time, and what you have in your car can make the difference between getting back on the ...</div>
-                                            <div class="article_btn"><a href="article.html" class="btn">read more</a></div>
+                                <article class="article">
+                                    <div class="article_cover">
+                                        <img src="img/img1.jpg" alt=""/>
+                                        <a href="blog.html" class="cats_item">travel</a>
+                                    </div>
+                                    <div class="article_infoline infoline">
+                                        <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
+                                        <div class="infoline_author">
+                                            <div class="ava"><img data-src="img/ava.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                            Marie Caphlish
                                         </div>
                                     </div>
-                                    <div class="article_item">
-                                        <div class="article_item_cover">
-                                            <a href="article.html"><img src="/img/img7.jpg" class="js-img" alt=""/></a>
-                                            <a href="blog.html" class="cats_item">travel</a>
-                                        </div>
-                                        <div class="article_infoline infoline">
-                                            <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
-                                            <div class="infoline_author">
-                                                <div class="ava"><img src="/img/ava.png" class="js-img" alt=""/></div>
-                                                Marie Caphlish
-                                            </div>
-                                        </div>
-                                        <div class="article_txt">
-                                            <div class="article_title h2"><a href="article.html">how not to get lost without knowing the language</a></div>
-                                            <div class="article_desc">A breakdown or a flat tire can happen to anyone at any time, and what you have in your car can make the difference between getting back on the ...</div>
-                                            <div class="article_btn"><a href="article.html" class="btn">read more</a></div>
+                                    <div class="article_txt">
+                                        <h1>a set of the most necessary things on vacation</h1>
+                                        <p class="short">Pariatur cupidatat Lorem irure nisi. Velit qui irure consectetur do cupi roident id est ex sunt nostrud nisi mine consectetur do cupi roident id est ex sunt nostrud nisi minim ut. Cupidatat velit dolore consectetur deserunt laboris magna eiusmod aliquip consectetur commodo in eiusmod aliqua cupidatat. Nostrud laboris et eu mollit qui esse dolore exercitation in dolore sint nisi eu aliqua. Sit ipsum cillum commodo enim eiusmod. Eiusmod et anim laborum consectetur. Proident nostrud anim nisi sunt veniam. Labore amet eiusmod dolor adipisicing Lorem tempor cillum <a href="#">incididunt</a> proident consequat laborum. Velit anim minim est consequat commodo eu reprehenderit eiusmod nisi amet quis tempor incididunt. Irure proident aute non sit adipisicing nulla sit proident dolore sunt. Aute aute Lorem sint sunt et fugiat laborum. Qui incididunt aute pariatur aute laborum elit nulla amet magna enim.</p>
+                                        <blockquote>
+                                            <p>“As a participatory media culture, social media platforms or social networking sites are forms of mass communication that, through media technologies, allow large amounts of product and distribution of content to reach the largest audience possible. “</p>
+                                            <cite>Ralph Edwards</cite>
+                                        </blockquote>
+                                        <h3>Pariatur cupidatat Lorem irure nisi Velit qui</h3>
+                                        <p>Pariatur cupidatat Lorem irure nisi. Velit qui irure consectetur do cupi roident id est ex sunt nostrud nisi mine consectetur do cupi roident id est ex sunt nostrud nisi minim ut. Cupidatat velit dolore consectetur deserunt laboris magna eiusmod aliquip consectetur commodo in eiusmod aliqua cupidatat. Nostrud laboris et eu mollit qui esse dolore exercitation in dolore sint nisi eu aliqua.</p>
+                                        <ol>
+                                            <li>As a participatory media culture, social media platforms or social networking sites are forms of mass communication that, through media technologies.</li>
+                                            <li>Allow large amounts of product and distribution of content to reach the largest audience possible.</li>
+                                            <li>However, there are downsides to virtual promotions as servers, systems, and websites may crash, fail, or become overloaded with information. You also can stand risk of losing uploaded information and storage and at a use can also be effected by a number of outside variables.</li>
+                                        </ol>
+                                    </div>
+                                    <div class="article_tags">
+                                        <div class="article_tags_title">Tags:</div>
+                                        <a href="blog.html">#Travel</a> <span class="dash"></span> <a href="blog.html">#holiday</a> <span class="dash"></span> <a href="blog.html">#hobby</a>
+                                    </div>
+                                    <div class="author">
+                                        <div class="author_img"><img data-src="img/ava.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                        <div class="author_cont">
+                                            <div class="author_name">Marie Caphlish</div>
+                                            <div class="author_txt">Web developer since 2006. Create hundreds of websites, HTML and CSS3 expert, who started to learn web design on a <span class="nowrap">world-class</span> level. </div>
                                         </div>
                                     </div>
-                                    <div class="article_item">
-                                        <div class="article_item_cover">
-                                            <a href="article.html"><img src="/img/img8.jpg" class="js-img" alt=""/></a>
-                                            <a href="blog.html" class="cats_item">travel</a>
-                                        </div>
-                                        <div class="article_infoline infoline">
-                                            <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
-                                            <div class="infoline_author">
-                                                <div class="ava"><img src="/img/ava.png" class="js-img" alt=""/></div>
-                                                Marie Caphlish
+                                </article>
+                                <div class="comments_form">
+                                    <h3>Leave a comment</h3>
+                                    <form id="form">
+                                        <div class="form_cols">
+                                            <div class="form_cols_item">
+                                                <div class="form_row">
+                                                    <input type="text" class="form-control" placeholder="Your name" name="name" />
+                                                </div>
+                                            </div>
+                                            <div class="form_cols_item">
+                                                <div class="form_row">
+                                                    <input type="tel" class="form-control" placeholder="+1 (___) ___ __ __" name="tel"/>
+                                                </div>
+                                            </div>
+                                            <div class="form_cols_item">
+                                                <div class="form_row">
+                                                    <input type="email" class="form-control" placeholder="Your email" name="email" />
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="article_txt">
-                                            <div class="article_title h2"><a href="article.html">where to rest for those who do not like noisy places</a></div>
-                                            <div class="article_desc">A breakdown or a flat tire can happen to anyone at any time, and what you have in your car can make the difference between getting back on the ...</div>
-                                            <div class="article_btn"><a href="article.html" class="btn">read more</a></div>
+                                        <div class="form_row">
+                                            <textarea class="form-control" placeholder="Enter your comment" name="comment"></textarea>
                                         </div>
-                                    </div>
+                                        <div class="form_btn"><button class="btn">post comment</button></div>
+                                    </form>
                                 </div>
-                                <div class="pagenavi">
-                                    <span class="current">1</span>
-                                    <a href="#">2</a>
-                                    <a href="#"><span class="icon-arrow"></span></a>
-                                </div>
-                                <a href="#" class="bann"><img src="/img/bad1.jpg" class="js-img" alt=""/></a>
+                                <a href="#" class="bann"><img data-src="img/bad1.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
                             </div>
                             <aside class="columns_sidebar sidebar">
                                 <div class="sidebar_search">
@@ -93,20 +97,20 @@ export default function Blog() {
                                     <h3>Recent stories</h3>
                                     <div class="stories">
                                         <div class="stories_item">
-                                            <div class="stories_item_img"><a href="article.html"><img src="/img/img2.jpg" class="js-img" alt=""/></a></div>
+                                            <div class="stories_item_img"><a href="/blog/blog-slug"><img data-src="img/img2.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
                                             <div class="stories_item_infoline infoline">
                                                 <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                 <div class="infoline_tag">#pets</div>
                                             </div>
-                                            <div class="stories_item_title"><a href="article.html">fresh home photo session. see how we love our pets</a></div>
+                                            <div class="stories_item_title"><a href="/blog/blog-slug">fresh home photo session. see how we love our pets</a></div>
                                         </div>
                                         <div class="stories_item">
-                                            <div class="stories_item_img"><a href="article.html"><img src="/img/img3.jpg" class="js-img" alt=""/></a></div> 
+                                            <div class="stories_item_img"><a href="/blog/blog-slug"><img data-src="img/img3.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div> 
                                             <div class="stories_item_infoline infoline">
                                                 <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                 <div class="infoline_tag">#garden</div>
                                             </div>
-                                            <div class="stories_item_title"><a href="article.html">the best ideas for decorating living areas in your garden</a></div>
+                                            <div class="stories_item_title"><a href="/blog/blog-slug">the best ideas for decorating living areas in your garden</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -124,7 +128,7 @@ export default function Blog() {
                                         <a href="blog.html" class="cats_item">science</a><a href="blog.html" class="cats_item">marketing</a><a href="blog.html" class="cats_item">digital</a>
                                     </div>
                                 </div>
-                                <a href="#" class="bann"><img src="/img/bad2.jpg" class="js-img" alt=""/></a>
+                                <a href="#" class="bann"><img data-src="img/bad2.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
                                 <div class="sidebar_widget">
                                     <h3>Follow us</h3>
                                     <div class="soc">
@@ -158,9 +162,9 @@ export default function Blog() {
                                     <h3>Popular posts</h3>
                                     <div class="popular">
                                         <div class="popular_item">
-                                            <div class="popular_item_img"><a href="article.html"><img src="/img/img4.jpg" class="js-img" alt=""/></a></div>
+                                            <div class="popular_item_img"><a href="/blog/blog-slug"><img data-src="img/img4.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
                                             <div class="popular_item_cont">
-                                                <div class="popular_item_title"><a href="article.html">the best indoor plants to create comfort ...</a></div>
+                                                <div class="popular_item_title"><a href="/blog/blog-slug">the best indoor plants to create comfort ...</a></div>
                                                 <div class="popular_item_infoline infoline">
                                                     <div class="infoline_date">Jul 06</div> <span class="dash"></span>
                                                     <div class="infoline_tag"><span class="icon-comm"></span>5</div>
@@ -168,9 +172,9 @@ export default function Blog() {
                                             </div>
                                         </div>
                                         <div class="popular_item">
-                                            <div class="popular_item_img"><a href="article.html"><img src="/img/img5.jpg" class="js-img" alt=""/></a></div>
+                                            <div class="popular_item_img"><a href="/blog/blog-slug"><img data-src="img/img5.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
                                             <div class="popular_item_cont">
-                                                <div class="popular_item_title"><a href="article.html">a set of the most necessary things ...</a></div>
+                                                <div class="popular_item_title"><a href="/blog/blog-slug">a set of the most necessary things ...</a></div>
                                                 <div class="popular_item_infoline infoline">
                                                     <div class="infoline_date">Jul 06</div> <span class="dash"></span>
                                                     <div class="infoline_tag"><span class="icon-comm"></span>5</div>
@@ -178,9 +182,9 @@ export default function Blog() {
                                             </div>
                                         </div>
                                         <div class="popular_item">
-                                            <div class="popular_item_img"><a href="article.html"><img src="/img/img6.jpg" class="js-img" alt=""/></a></div>
+                                            <div class="popular_item_img"><a href="/blog/blog-slug"><img data-src="img/img6.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
                                             <div class="popular_item_cont">
-                                                <div class="popular_item_title"><a href="article.html">only here are the most beautiful sunsets</a></div>
+                                                <div class="popular_item_title"><a href="/blog/blog-slug">only here are the most beautiful sunsets</a></div>
                                                 <div class="popular_item_infoline infoline">
                                                     <div class="infoline_date">Jul 06</div> <span class="dash"></span>
                                                     <div class="infoline_tag"><span class="icon-comm"></span>5</div>
@@ -192,7 +196,7 @@ export default function Blog() {
                             </aside>
                         </div>
                     </div>
-                </section>   
+                </div>   
             </main>
     </div>
   )
