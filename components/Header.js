@@ -25,7 +25,7 @@ function Header(props) {
                         </div>
                     </div>
                     <div class="header_mid">
-                        <a href="index.html" class="header_logo logo" title=""><img data-src="img/logo.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>    
+                        <a href="index.html" class="header_logo logo" title=""><img data-src="/img/logo.png" src="/img/logo.png" class="js-img" alt=""/></a>    
                         <ul class="header_nav">
                             <li><a href="#recent" class="js-local">Recent posts</a></li>
                             <li><a href="#popular" class="js-local">popular</a></li>

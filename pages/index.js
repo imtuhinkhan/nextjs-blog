@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Slider from '../components/Slider'
 export default function Main() {
   return (
     <div class="main-wrapper">
@@ -9,58 +10,7 @@ export default function Main() {
       </Head>
 
       <main class="content">
-                <div class="section-welcome">
-                    <div class="welcome_slider js-welcome_slider">
-                        <div class="welcome_slider_item"><a href="article.html" class="cover_link"></a>
-                            <div class="welcome_slider_img"><img src="img/img24.jpg" alt=""/></div>
-                            <div class="welcome_slider_cont">
-                                <div class="welcome_slider_cats cats">
-                                    <a href="blog.html" class="cats_item">travel</a>
-                                </div>
-                                <div class="welcome_slider_title h3"><a href="article.html">a set of the most necessary things on vacation</a></div>
-                                <div class="welcome_slider_infoline infoline">
-                                    <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
-                                    <div class="infoline_author">
-                                        <div class="ava"><img data-src="img/ava6.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
-                                        Marvin McKinney
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="welcome_slider_item slick-slide"><a href="article.html" class="cover_link"></a>
-                            <div class="welcome_slider_img"><img data-src="img/img7.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
-                            <div class="welcome_slider_cont">
-                                <div class="welcome_slider_cats cats">
-                                    <a href="blog.html" class="cats_item">travel</a>
-                                </div>
-                                <div class="welcome_slider_title h3"><a href="article.html">a set of the most necessary things on vacation</a></div>
-                                <div class="welcome_slider_infoline infoline">
-                                    <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
-                                    <div class="infoline_author">
-                                        <div class="ava"><img data-src="img/ava.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
-                                        Marie Caphlish
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="welcome_slider_item slick-slide"><a href="article.html" class="cover_link"></a>
-                            <div class="welcome_slider_img"><img data-src="img/img8.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
-                            <div class="welcome_slider_cont">
-                                <div class="welcome_slider_cats cats">
-                                    <a href="blog.html" class="cats_item">travel</a>
-                                </div>
-                                <div class="welcome_slider_title h3"><a href="article.html">a set of the most necessary things on vacation</a></div>
-                                <div class="welcome_slider_infoline infoline">
-                                    <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
-                                    <div class="infoline_author">
-                                        <div class="ava"><img data-src="img/ava.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
-                                        Marie Caphlish
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Slider/>
                 <section class="section-stories">
                     <div class="wrapper">
                         <a href="#" class="bann"><img src="img/bad3.jpg" alt=""/></a>
@@ -73,7 +23,7 @@ export default function Main() {
                                     <div class="recent">
                                         <div class="recent_item">
                                             <div class="recent_item_img">
-                                                <a href="article.html"><img data-src="img/img14.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                                                <a href="article.html"><img data-src="img/img14.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                                                 <div class="recent_item_cats cats"><a href="blog.html" class="cats_item">home</a></div>
                                             </div>
                                             <div class="recent_item_cont">
@@ -82,7 +32,7 @@ export default function Main() {
                                                 <div class="recent_item_infoline infoline">
                                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                     <div class="infoline_author">
-                                                        <div class="ava"><img data-src="img/ava7.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                                        <div class="ava"><img data-src="img/ava7.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                                         Marie Caphlish
                                                     </div>
                                                     <a href="article.html" class="btn-arr"><span class="icon-arrow"></span></a>
@@ -91,7 +41,7 @@ export default function Main() {
                                         </div>
                                         <div class="recent_item">
                                             <div class="recent_item_img">
-                                                <a href="article.html"><img data-src="img/img15.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                                                <a href="article.html"><img data-src="img/img15.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                                                 <div class="recent_item_cats cats"><a href="blog.html" class="cats_item">fashion</a></div>
                                             </div>
                                             <div class="recent_item_cont">
@@ -100,7 +50,7 @@ export default function Main() {
                                                 <div class="recent_item_infoline infoline">
                                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                     <div class="infoline_author">
-                                                        <div class="ava"><img data-src="img/ava.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                                        <div class="ava"><img data-src="img/ava.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                                         Marie Caphlish
                                                     </div>
                                                     <a href="article.html" class="btn-arr"><span class="icon-arrow"></span></a>
@@ -109,7 +59,7 @@ export default function Main() {
                                         </div>
                                         <div class="recent_item">
                                             <div class="recent_item_img">
-                                                <a href="article.html"><img data-src="img/img16.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                                                <a href="article.html"><img data-src="img/img16.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                                                 <div class="recent_item_cats cats"><a href="blog.html" class="cats_item">electronics</a></div>
                                             </div>
                                             <div class="recent_item_cont">
@@ -118,7 +68,7 @@ export default function Main() {
                                                 <div class="recent_item_infoline infoline">
                                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                     <div class="infoline_author">
-                                                        <div class="ava"><img data-src="img/ava.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                                        <div class="ava"><img data-src="img/ava.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                                         Marie Caphlish
                                                     </div>
                                                     <a href="article.html" class="btn-arr"><span class="icon-arrow"></span></a>
@@ -131,7 +81,7 @@ export default function Main() {
                                     <div class="sidebar_widget">
                                         <div class="stories">
                                             <div class="stories_item">
-                                                <div class="stories_item_img"><a href="article.html"><img data-src="img/img2.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
+                                                <div class="stories_item_img"><a href="article.html"><img data-src="img/img2.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div>
                                                 <div class="stories_infoline infoline">
                                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                     <div class="infoline_tag">#pets</div>
@@ -139,7 +89,7 @@ export default function Main() {
                                                 <div class="stories_item_title"><a href="article.html">fresh home photo session. see how we love our pets</a></div>
                                             </div>
                                             <div class="stories_item">
-                                                <div class="stories_item_img"><a href="article.html"><img data-src="img/img3.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div> 
+                                                <div class="stories_item_img"><a href="article.html"><img data-src="img/img3.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div> 
                                                 <div class="stories_infoline infoline">
                                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                     <div class="infoline_tag">#garden</div>
@@ -147,7 +97,7 @@ export default function Main() {
                                                 <div class="stories_item_title"><a href="article.html">the best ideas for decorating living areas in your garden</a></div>
                                             </div>
                                             <div class="stories_item">
-                                                <div class="stories_item_img"><a href="article.html"><img data-src="img/img17.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div> 
+                                                <div class="stories_item_img"><a href="article.html"><img data-src="img/img17.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div> 
                                                 <div class="stories_infoline infoline">
                                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                     <div class="infoline_tag">#trevel</div>
@@ -171,7 +121,7 @@ export default function Main() {
                         <div class="columns columns-invers">
                             <div class="columns_center">
                                 <div class="popular_main">
-                                    <div class="popular_main_img"><a href="article.html"><img data-src="img/img18.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
+                                    <div class="popular_main_img"><a href="article.html"><img data-src="img/img18.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div>
                                     <div class="popular_main_cont">
                                         <div class="popular_main_infoline infoline">
                                             <div class="infoline_date">Jul 06</div> <span class="dash"></span>
@@ -187,7 +137,7 @@ export default function Main() {
                                 <div class="sidebar_widget">
                                     <div class="popular">
                                         <div class="popular_item">
-                                            <div class="popular_item_img"><a href="article.html"><img data-src="img/img4.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
+                                            <div class="popular_item_img"><a href="article.html"><img data-src="img/img4.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div>
                                             <div class="popular_item_cont">
                                                 <div class="popular_item_title"><a href="article.html">the best indoor plants to create comfort at home</a></div>
                                                 <div class="popular_item_infoline infoline">
@@ -198,7 +148,7 @@ export default function Main() {
                                             </div>
                                         </div>
                                         <div class="popular_item">
-                                            <div class="popular_item_img"><a href="article.html"><img data-src="img/img5.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
+                                            <div class="popular_item_img"><a href="article.html"><img data-src="img/img5.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div>
                                             <div class="popular_item_cont">
                                                 <div class="popular_item_title"><a href="article.html">a set of the most necessary things on vaca..</a></div>
                                                 <div class="popular_item_infoline infoline">
@@ -209,7 +159,7 @@ export default function Main() {
                                             </div>
                                         </div>
                                         <div class="popular_item">
-                                            <div class="popular_item_img"><a href="article.html"><img data-src="img/img19.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
+                                            <div class="popular_item_img"><a href="article.html"><img data-src="img/img19.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div>
                                             <div class="popular_item_cont">
                                                 <div class="popular_item_title"><a href="article.html">how does your morning at the office begin?</a></div>
                                                 <div class="popular_item_infoline infoline">
@@ -220,7 +170,7 @@ export default function Main() {
                                             </div>
                                         </div>
                                         <div class="popular_item">
-                                            <div class="popular_item_img"><a href="article.html"><img data-src="img/img6.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
+                                            <div class="popular_item_img"><a href="article.html"><img data-src="img/img6.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div>
                                             <div class="popular_item_cont">
                                                 <div class="popular_item_title"><a href="article.html">only here are the most beautiful sunsets</a></div>
                                                 <div class="popular_item_infoline infoline">
@@ -238,7 +188,7 @@ export default function Main() {
                 </section>
                 <section class="section-readed">
                     <div class="wrapper">
-                        <a href="#" class="bann"><img data-src="img/bad4.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                        <a href="#" class="bann"><img data-src="img/bad4.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                         <div class="columns" id="mostreaded">
                             <div class="columns_center">
                                 <div class="section_title">
@@ -248,7 +198,7 @@ export default function Main() {
                                 <div class="readed">
                                     <div class="readed_item">
                                         <div class="readed_item_img">
-                                            <a href="article.html"><img data-src="img/img20.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                                            <a href="article.html"><img data-src="img/img20.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                                             <div class="readed_item_cats cats">
                                                 <a href="blog.html" class="cats_item">home</a>
                                                 <a href="blog.html" class="cats_item">office</a>
@@ -259,7 +209,7 @@ export default function Main() {
                                            <div class="readed_item_infoline infoline">
                                                 <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                 <div class="infoline_author">
-                                                    <div class="ava"><img data-src="img/ava7.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                                    <div class="ava"><img data-src="img/ava7.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                                     Jane Cooper
                                                 </div>
                                                 <a href="article.html" class="btn-arr"><span class="icon-arrow"></span></a>
@@ -268,7 +218,7 @@ export default function Main() {
                                     </div>
                                     <div class="readed_item">
                                         <div class="readed_item_img">
-                                            <a href="article.html"><img data-src="img/img21.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                                            <a href="article.html"><img data-src="img/img21.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                                             <div class="readed_item_cats cats">
                                                 <a href="blog.html" class="cats_item">garden</a>
                                             </div>
@@ -278,7 +228,7 @@ export default function Main() {
                                            <div class="readed_item_infoline infoline">
                                                 <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                 <div class="infoline_author">
-                                                    <div class="ava"><img data-src="img/ava8.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                                    <div class="ava"><img data-src="img/ava8.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                                     Devon Lane
                                                 </div>
                                                 <a href="article.html" class="btn-arr"><span class="icon-arrow"></span></a>
@@ -287,7 +237,7 @@ export default function Main() {
                                     </div>
                                     <div class="readed_item">
                                         <div class="readed_item_img">
-                                            <a href="article.html"><img data-src="img/img22.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                                            <a href="article.html"><img data-src="img/img22.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                                             <div class="readed_item_cats cats">
                                                 <a href="blog.html" class="cats_item">office</a>
                                             </div>
@@ -297,7 +247,7 @@ export default function Main() {
                                            <div class="readed_item_infoline infoline">
                                                 <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                 <div class="infoline_author">
-                                                    <div class="ava"><img data-src="img/ava3.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                                    <div class="ava"><img data-src="img/ava3.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                                     Marvin McKinney
                                                 </div>
                                                 <a href="article.html" class="btn-arr"><span class="icon-arrow"></span></a>
@@ -306,7 +256,7 @@ export default function Main() {
                                     </div>
                                     <div class="readed_item">
                                         <div class="readed_item_img">
-                                            <a href="article.html"><img data-src="img/img23.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                                            <a href="article.html"><img data-src="img/img23.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                                             <div class="readed_item_cats cats">
                                                 <a href="blog.html" class="cats_item">trevel</a>
                                             </div>
@@ -316,7 +266,7 @@ export default function Main() {
                                            <div class="readed_item_infoline infoline">
                                                 <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                                 <div class="infoline_author">
-                                                    <div class="ava"><img data-src="img/ava9.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                                    <div class="ava"><img data-src="img/ava9.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                                     Jane Cooper
                                                 </div>
                                                 <a href="article.html" class="btn-arr"><span class="icon-arrow"></span></a>
@@ -340,7 +290,7 @@ export default function Main() {
                                         <li><a href="blog.html">fashion <span>(29)</span></a></li>
                                     </ul>
                                 </div>
-                                <a href="#" class="bann"><img data-src="img/bad2.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a>
+                                <a href="#" class="bann"><img data-src="img/bad2.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a>
                             </aside>
                         </div>
                     </div>
@@ -362,7 +312,7 @@ export default function Main() {
                             <h2>Hot stuff</h2>
                         </div>
                         <div class="hot">
-                            <div class="hot_img"><a href="article.html"><img data-src="img/img13.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div>
+                            <div class="hot_img"><a href="article.html"><img data-src="img/img13.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div>
                             <div class="hot_cont">
                                 <div class="hot_cats cats">
                                     <a href="blog.html" class="cats_item">interior</a>
@@ -372,7 +322,7 @@ export default function Main() {
                                 <div class="hot_infoline infoline">
                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                     <div class="infoline_author">
-                                        <div class="ava"><img data-src="img/ava5.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                        <div class="ava"><img data-src="img/ava5.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                         Ralph Edwards
                                     </div>
                                 </div>
@@ -389,7 +339,7 @@ export default function Main() {
                         </div>
                         <div class="topof">
                             <div class="topof_item">
-                                <div class="topof_item_img"><a href="article.html"><img data-src="img/img10.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div> 
+                                <div class="topof_item_img"><a href="article.html"><img data-src="img/img10.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div> 
                                 <div class="topof_cats cats">
                                     <a href="blog.html" class="cats_item">fashion</a>
                                     <a href="blog.html" class="cats_item">pets</a>
@@ -398,14 +348,14 @@ export default function Main() {
                                 <div class="topof_item_infoline infoline">
                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                     <div class="infoline_author">
-                                        <div class="ava"><img data-src="img/ava2.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                        <div class="ava"><img data-src="img/ava2.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                         Jerome Bell
                                     </div>
                                 </div>
                                 <a href="article.html" class="link-view">Read more <span class="icon-arr"></span></a>
                             </div>
                             <div class="topof_item">
-                                <div class="topof_item_img"><a href="article.html"><img data-src="img/img11.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div> 
+                                <div class="topof_item_img"><a href="article.html"><img data-src="img/img11.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div> 
                                 <div class="topof_cats cats">
                                     <a href="blog.html" class="cats_item">pets</a>
                                 </div>
@@ -413,14 +363,14 @@ export default function Main() {
                                 <div class="topof_item_infoline infoline">
                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                     <div class="infoline_author">
-                                        <div class="ava"><img data-src="img/ava3.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                        <div class="ava"><img data-src="img/ava3.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                         Brooklyn Simmons
                                     </div>
                                 </div>
                                 <a href="article.html" class="link-view">Read more <span class="icon-arr"></span></a>
                             </div>
                             <div class="topof_item">
-                                <div class="topof_item_img"><a href="article.html"><img data-src="img/img12.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></a></div> 
+                                <div class="topof_item_img"><a href="article.html"><img data-src="img/img12.jpg" src="/img/img7.jpg" class="js-img" alt=""/></a></div> 
                                 <div class="topof_cats cats">
                                     <a href="blog.html" class="cats_item">books</a>
                                 </div>
@@ -428,7 +378,7 @@ export default function Main() {
                                 <div class="topof_item_infoline infoline">
                                     <div class="infoline_date">Jul 06, 2021</div> <span class="dash"></span>
                                     <div class="infoline_author">
-                                        <div class="ava"><img data-src="img/ava4.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt=""/></div>
+                                        <div class="ava"><img data-src="img/ava4.png" src="/img/img7.jpg" class="js-img" alt=""/></div>
                                         Ronald Richards
                                     </div>
                                 </div>
