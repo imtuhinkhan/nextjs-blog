@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Slider from '../components/Slider'
+import SliderSlick from '../components/SliderSlick'
 export default function Main() {
   return (
     <div class="main-wrapper">
@@ -10,7 +11,7 @@ export default function Main() {
       </Head>
 
       <main class="content">
-                <Slider/>
+                <SliderSlick/>
                 <section class="section-stories">
                     <div class="wrapper">
                         <a href="#" class="bann"><img src="img/bad3.jpg" alt=""/></a>
