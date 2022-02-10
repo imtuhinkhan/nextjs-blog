@@ -1,4 +1,17 @@
 {
+  "category":[
+    {
+      "id":1,
+      "title":"Programing"
+    },
+    {
+      "id":2,
+      "title":"Technology"
+    },{
+      "id":3,
+      "title":"React"
+    }
+  ],
     "posts": [
       { "id": 1, "title": "json-server", "author": "typicode" }
     ],
